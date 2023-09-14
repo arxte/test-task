@@ -1,0 +1,50 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+.search-wrapper {
+  margin: 0px auto;
+  background-image: url(../images/search-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 50px 0px;
+}
+
+.input-wrapper {
+  position: relative;
+  max-width: 35%;
+  margin: 0px auto;
+}
+
+.search {
+  display: block;
+  width: 100%;
+  padding: 20px 30px;
+  border: none;
+  font-family: Roboto-Regular, sans-serif;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.search::placeholder {
+  font-family: Roboto-Regular, sans-serif;
+  font-size: inherit;
+  color: #000;
+}
+
+.search-img {
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -5%;
+}
+
+@media (max-width: 480px) {
+  .search-img {
+    right: -20%;
+  }
+}

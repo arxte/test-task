@@ -1,0 +1,103 @@
+.detail {
+  position: relative;
+  overflow: hidden;
+}
+
+.detail-bgc {
+  position: absolute;
+  z-index: -1;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.detail-profile-info {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.detail-profile {
+  padding: 35px 0px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+  z-index: 10;
+}
+
+.detail-name {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 1.875em;
+  color: #f2f2f2;
+  line-height: 130%;
+}
+
+.clickedPhoto {
+  width: 100%;
+  height: 750px;
+}
+
+.profile-img {
+  width: 55px;
+  height: 55px;
+}
+
+.detail-profile-name {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-instagram {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 1.125em;
+  color: #f2f2f2;
+  line-height: 130%;
+}
+
+.detail-profile-actions {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+.detail-profile-actions__like {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.detail-profile-actions__download {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  background-color: #fff200;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.detail-profile-actions__download:hover {
+  background-color: #d7cc01;
+}
+
+.detail-profile-actions__img {
+  max-width: 26px;
+  max-height: 23px;
+}
+
+.detail-profile-actions__text {
+  font-family: 'Roboto-Regular', sans-serif;
+  font-size: 1.25em;
+  color: #000;
+}
+
+.liked_photo {
+  background-color: rgb(255, 7, 7);
+}
